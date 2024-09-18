@@ -44,7 +44,7 @@ This repository provides an in-depth exploration of advanced computer vision tec
 - **Description:** Background subtraction is a technique used to separate moving objects from a static background in a video stream. By analyzing the difference between the current frame and a reference background model, it highlights objects in motion. This method is commonly applied in fields such as surveillance systems, motion detection, and traffic monitoring. The implementation utilizes OpenCV's `BackgroundSubtractorMOG2`, which employs a mixture of Gaussians to model the background. The algorithm dynamically updates the background model to adapt to gradual changes in lighting and scene conditions, effectively distinguishing moving objects from the background.
 
 - **Sample Frame:**
-  ![Background Subtraction](output/background_subtraction/frame_0000.png)
+  ![Background Subtraction](output/background_subtraction/frame_0005.png)
 
 ### 2. Color Quantization
 - **Description:** Color quantization is a process that reduces the number of distinct colors in an image. This is particularly useful for image compression and reducing the complexity of image processing tasks. The technique uses K-means clustering to group similar colors and replace them with a representative color for each cluster. By doing so, it simplifies the image while preserving its visual quality. The result is an image that appears with fewer colors, which is beneficial for efficient storage and faster processing in various applications like computer graphics and digital image processing.
